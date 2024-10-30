@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: rgba(181, 115, 53, 0.978);
+  font-family: 'Lucida Sans', 'lucida Sans Regular';
+  ;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.container {
+  height: 500px;
+  width: 700px;
+  padding: 2em;
+  background-color: rgb(86, 42, 4);
+}
+
+input[type=text] {
+  width: 80%;
+  height: fit-content;
+  padding: 1em;
+  border-radius: 3em;
+  border: solid brown;
+  margin: 0 5.2em 3em;
+}
+
+button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  margin-left: 2.5em;
+  font-size: 18px;
+  border-radius: 2em;
+  margin-bottom: 1em;
+  background-color: brown;
+}
+
+#two:hover {
+  background-color: whitesmoke;
+  color: black;
+  cursor: pointer;
+}
+
+#one:hover {
+  background-color: whitesmoke;
+  color: black;
+  cursor: pointer;
+}
+
+.btn-cnt {
+  width: 100%;
+  height: fit-content;
+  padding: 0 20%;
+  display: grid;
+}
+
+p {
+  padding: 1em;
+  width: fit-content;
+  color: brown;
+  font-size: large;
+  margin: 2.5em;
+  border: 3px solid;
+}
+
+.score-cnt {
+  width: 100%;
+  height: fit-content;
+  padding: 0 20%;
+  display: flex;
+
+
+}
